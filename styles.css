@@ -1,0 +1,71 @@
+html {
+    min-width: 320px;
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: block;
+    background-color: #7ea0d6;
+    background-image: url(pics/erebus.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 250%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+}
+
+q {
+    font-style: italic;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+#img-div {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    border: 1px solid; 
+    background-color: #221406;
+    width: 30%;
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    border-top: 1px solid;
+    font-size: 80%;
+    background-color: white;
+}
+
+#tribute-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #d1e3f1;
+    width: 88%;
+    padding: 10px;
+    font-size: 130%;
+    min-height: 600px;
+}
+
+.tribute-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+}
+
+.col1 {font-weight: bold;}
+.col2 {word-wrap: break-word;}
